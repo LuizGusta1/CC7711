@@ -1,13 +1,10 @@
-from ChatBot.chatbot import ChatBot
+from chatbot import ChatBot
 myChatBot = ChatBot()
 #apenas carregar um modelo pronto
 #myChatBot.loadModel()
 
 #criar o modelo
 myChatBot.createModel()
-
-
-
 
 print("Bem vindo ao Chatbot")
 
