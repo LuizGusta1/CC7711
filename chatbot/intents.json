@@ -17,7 +17,7 @@
     "responses":["O Programa PIPE da FAPESP apoia pequenas empresas de São Paulo em projetos de pesquisa científica e tecnológica, promovendo inovação, competitividade, parcerias com pesquisadores, e a criação de uma cultura de inovação no setor empresarial."]
   },
   {
-    "tag": "etapas_´PIPE",
+    "tag": "etapas_PIPE",
     "patterns":["Quais são as etapas do programa?", "etapas do PIPE"],
     "responses":["O pipe possui 3 Fases"]
   }
