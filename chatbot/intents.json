@@ -7,19 +7,25 @@
     "patterns":["valeu","tchau","Obrigado","tks"],
     "responses": ["Até breve","Falou"]
   },
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?"],
-    "responses": ["no dia 26"]
-  },
   {
     "tag": "objetivo_PIPE",
-    "patterns":["O que é um programa PIPE?", "Para que serve um programa PIPE", "O que é PIPE"],
+    "patterns":["O que é um programa PIPE?", "Para que serve um programa PIPE?", "O que é PIPE?"],
     "responses":["O Programa PIPE da FAPESP apoia pequenas empresas de São Paulo em projetos de pesquisa científica e tecnológica, promovendo inovação, competitividade, parcerias com pesquisadores, e a criação de uma cultura de inovação no setor empresarial."]
   },
   {
     "tag": "etapas_PIPE",
-    "patterns":["Quais são as etapas do programa?", "etapas do PIPE"],
-    "responses":["O pipe possui 3 Fases"]
+    "patterns":["Quais são as etapas do programa?", "etapas do PIPE", "me fale sobre as etapas do PIPE"],
+    "responses":["O pipe possui 3 Fases, A primeira é a verificação da viabilidade técnico-científica da proposta, a segunda é a execução da pesquisa propriamente dita, após isso temos o PIPE invest que consiste na Aceleração da chegada ao mercado de Projetos da Fase 2 e por fim a fase 3 que é o desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE. "]
+  },
+  {
+    "tag": "empresa_PIPE",
+    "patterns":["Preciso ter a empresa para solicitar o PIPE?", "para solicitar o PIPE preciso de uma empresa?"],
+    "responses":["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada, o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+  },
+  {
+    "tag": "data_PIPE",
+    "patterns":["Quando posso submeter uma proposta ao PIPE?", "tem tempo para submeter uma proposta?"],
+    "responses":["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
   }
   ]
 }
